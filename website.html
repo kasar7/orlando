@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Document</title>
+    <style>
+      .myslider {
+        height: 400px;
+      }
+      i {
+        font-size: 40px !important;
+      }
+     
+      .card:hover{
+        box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+      }
+       /* i:hover{ */
+
+      /* }  */
+    </style>
+  </head>
+  <body>
+    <!--headers Part Start -->
+
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img
+              src="https://th.bing.com/th/id/OIP.SNxkeBN6uAIzlzrn0oOpfgHaHa?rs=1&pid=ImgDetMain"
+              style="width: 50px; height: 50px"
+              alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Shopping Cart
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Foods</a></li>
+                  <li><a class="dropdown-item" href="#">Fruits</a></li>
+
+                  <li><a class="dropdown-item" href="#">Vegetable</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Login</a>
+              </li>
+              <!-- <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                  </li> -->
+            </ul>
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                My Cart
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!--headers Part End -->
+
+    <!-- start banner part -->
+
+    <div class="container-fluid">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="https://cdn2.shopify.com/s/files/1/0122/2033/4180/files/grocery_banner.jpg?17421"
+              class="d-block w-100 myslider"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://www.sundagroup.in/durgeshgrocery/wp-content/uploads/2021/05/Easy-Grocery-banner-1.png"
+              class="d-block w-100 myslider"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://secureprintportal.s3.us-west-1.amazonaws.com/production/assets/5966561450122033bd4456f8/imageLocker/post_featured_image/post_featured_image/retail_banners.png"
+              class="d-block w-100 myslider"
+              alt="..."
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- End Banner Part -->
+
+    <!-- Start Card Info -->
+    <div class="container mt-3 mb-5">
+      <div class="row">
+        <div class="col-lg-4 mt-5">
+          <div class="card bg-danger text-white">
+            <div class="card-body text-center">
+                <i class="fa fa-strawberry" style='font-size:24px'></i>
+              <h3>Vegetable</h3>
+              <p>
+               In our mart fresh Vegetable is available in the grocery store,at
+               very lowest price and affordable cost at maximum 50% discount.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mt-5">
+          <div class="card bg-danger text-white">
+            <div class="card-body text-center">
+                <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+              <h3>Fruits</h3>
+              <p>
+                In our shopping cart various grocery item are available like grains,dals,sugar,jaggary,etc.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mt-5">
+          <div class="card bg-danger text-white">
+            <div class="card-body text-center">
+                <i class="fa-solid fa-strawberry"></i>
+              <h3>Grocery</h3>
+              <p>
+               In our shopping cart various fruits are available which purchased directly from the farmers and sold at half price till 15-Dec-2023.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Card Info -->
+
+    <!-- Start Middle Layout -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <img
+            src="https://blog.dhan.co/blog/wp-content/uploads/2022/06/Dmart.gif" border-radious="50%"
+            class="img-fluid"
+            alt=""
+          />
+        </div>
+        <div class="col-lg-6 mb-5">
+          <h1 class="text-center">
+            <font color="orange">Wel</font><font color="green">come</font> In
+            Our Shopping Cart.
+          </h1>
+          <p>
+            Fresh green Vegetable for the consumer are available in Market and we have to provide at lowest price and affordable cost at
+            50% lowest price as compare to Local Market.
+          </p>
+          <p>
+           Fresh green fruits are available online and immidiet home delivery to home and Provide less price cost as compare to local Markeet. 
+          </p>
+          <p>
+           New Barnded items like goods and grocery of various brand like Patanjali,Haldiram and Grains available to costumer.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ENd Middle Layout -->
+
+    <!-- Start Gallery Layout -->
+
+    <div class="container">
+      <h1 class="text-center mt-3 mt-3">Shopping Cart</h1>
+      <div class="row">
+        <div class="col-lg-4 mt-3">
+          <div class="card text-center">
+            <div class="card-body">
+                <img src="https://buddybasket.ca/wp-content/uploads/2022/04/ezgif.com-gif-maker1.gif" class="img-fluid" style="width: 200px; height: 150px;" alt="">
+              <p>
+                Toor dal of variouos quality of Maharaja Brand.
+                Weight=1Kg<br>
+                Price=50Rs/kg
+                <form><input type="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8e0xs6bECB3cTUVpQNMjof2NzaQn2C-Vp9g&usqp=CAU"/>500gm</form>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mt-3">
+            <div class="card text-center">
+                <div class="card-body">
+                    <img src="https://images.deccanherald.com/deccanherald/import/sites/dh/files/article_images/2020/05/19/354320-307189416-1377876812.gif?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true" class="img-fluid" style="width: 200px; height: 150px;" alt="">
+                  <p>
+                    Moong Dal of various quality manufactured in MP.
+                    Weight=1Kg
+                    Price=84Rs/kg
+                    <form><input type="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8e0xs6bECB3cTUVpQNMjof2NzaQn2C-Vp9g&usqp=CAU"/>1000gm</form>
+                  </p>
+                </div>
+        </div>
+        </div>
+        <div class="col-lg-4 mt-3">
+            <div class="card text-center">
+                <div class="card-body">
+                    <img src="https://www.healthbenefitstimes.com/9/uploads/2016/12/Jaggery.jpg" class="img-fluid" style="width: 200px; height: 150px;" alt="">
+                  <p>
+                    Jaggary made in Kolhapur available at lowest price.
+                    Weight=1kg<br>
+                    Price=65Rs/kg
+                    <form><input type="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8e0xs6bECB3cTUVpQNMjof2NzaQn2C-Vp9g&usqp=CAU"/>1000gm</form>
+                  </p>
+                </div>
+        </div>
+        </div>
+        <div class="col-lg-4 mt-3">
+            <div class="card text-center">
+                <div class="card-body">
+                    <img src="https://d1nakyqvxb9v71.cloudfront.net/wp-content/uploads/2019/01/sugar-animation-thumbnail.gif" class="img-fluid" style="width: 200px; height: 150px;" alt="">
+                  <p>
+                    Sugar  made in Sangli available at lowest price.
+                    Weight=1kg<br>
+                    Price=40Rs/kg
+                    <form><input type="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8e0xs6bECB3cTUVpQNMjof2NzaQn2C-Vp9g&usqp=CAU"/>1000gm</form>
+                  </p>
+                </div>
+        </div>
+        </div>
+        <div class="col-lg-4 mt-3">
+            <div class="card text-center">
+                <div class="card-body">
+                    <img src="https://i0.wp.com/sporked.com/wp-content/uploads/2022/07/BEST_INSTANT_COFFEE_INSET_04.gif?resize=612%2C696&ssl=1" class="img-fluid" style="width: 200px; height: 150px;" alt="">
+                  <p>
+                    Coffee  made in Kerala available at lowest price.
+                    Fresh coffee beans.
+                    Weight=1kg<br>
+                    Price=90Rs/kg
+                    <form><input type="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8e0xs6bECB3cTUVpQNMjof2NzaQn2C-Vp9g&usqp=CAU"/>250gm</form>
+                  </p>
+                </div>
+        </div>
+        </div>
+        <div class="col-lg-4 mt-3">
+            <div class="card text-center">
+                <div class="card-body">
+                    <img src="https://i.pinimg.com/originals/bf/67/64/bf6764e551d351cbdf2dbf6456fc300c.gif" class="img-fluid" style="width: 200px; height: 150px;" alt="">
+                  <p>
+                    Choclate Made in Switcherland available in cost effective price.
+                    Weight=500gm<br>
+                    Price=100Rs/kg
+                    <form><input type="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8e0xs6bECB3cTUVpQNMjof2NzaQn2C-Vp9g&usqp=CAU"/>100gm</form>
+                  </p>
+                </div>
+        </div>
+        </div>
+        <div class="col-lg-4 mt-3">
+            <div class="card text-center">
+                <div class="card-body">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/b/b7/Red-apple-jumping.gif" class="img-fluid" style="width: 200px; height: 150px;" alt="">
+                  <p>
+                    Apple of Kashmir and Jammu available on online plaatform.
+                    Weight=500gm<br>
+                    Price=80Rs/kg
+                    <form><input type="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8e0xs6bECB3cTUVpQNMjof2NzaQn2C-Vp9g&usqp=CAU"/>1kg</form>
+                  </p>
+                </div>
+        </div>
+        </div>
+        <div class="col-lg-4 mt-3">
+            <div class="card text-center">
+                <div class="card-body">
+                    <img src="https://haldiramnagpurnews.files.wordpress.com/2017/01/haldirams-festival.gif?w=300" class="img-fluid" style="width: 200px; height: 150px;" alt="">
+                  <p>
+                    Branded Haldiram Product namkeen available for sold in Market.
+                    Weight=500gm<br>
+                    Price=100Rs/kg
+                    <form><input type="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8e0xs6bECB3cTUVpQNMjof2NzaQn2C-Vp9g&usqp=CAU"/>1kg</form>
+                  </p>
+                </div>
+        </div>
+        </div>
+        <div class="col-lg-4 mt-3">
+            <div class="card text-center">
+                <div class="card-body">
+                    <img src="https://th.bing.com/th/id/OIP.eFUAx4fyfaJdhvHNeHKikAHaEc?rs=1&pid=ImgDetMain" class="img-fluid" style="width: 200px; height: 150px;" alt="">
+                  <p>
+                    Patanjali ayurvedic food Product available online.
+                    Weight=500gm<br>
+                    Price=--Rs/kg
+                    <form><input type="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8e0xs6bECB3cTUVpQNMjof2NzaQn2C-Vp9g&usqp=CAU"/>Min-1kg</form>
+                  </p>
+                </div>
+        </div>
+        
+        
+       
+      </div>
+    </div>
+    <!-- End Gallery Layout -->
+    <!-- start footer -->
+    
+     <div class="container-fluid bg-dark">
+       <div class="container text-white">
+        <div class="row">
+          <div class="col-lg-4 mt-5">
+            <p><i class="fa fa-phone-square" aria-hidden="true" font-size:20px! important"></i>&nbsp&nbsp&nbsp</p>
+            <p>+919403244740</p>
+            <p><i class="fa fa-map-marker" aria-hidden="true" style="font-size: 20px!important"></i>&nbsp&nbsp Indore City</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut illo, ex, recusandae vel, dicta laboriosam illum optio dignissimos tempora quaerat odit nemo voluptatibus provident labore tenetur consequuntur blanditiis dolor cum.</p>
+          </div>
+          <div class="col-lg-4 mt-5">
+            <i class="fa fa-google "aria-hidden="true"></i>
+            <i class="fa fa-facebook "aria-hidden="true"></i>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus perspiciatis fugiat molestias repellat molestiae quasi illo minima veniam dignissimos, magnam veritatis ab sequi magni aperiam facilis culpa, id dolorum nihil.</p>
+          </div>
+          <div class="col-lg-4 mt-5">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d29436.435406627108!2d75.86443614999999!3d22.74479705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1700549517154!5m2!1sen!2sin" width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+       </div>
+     </div>
+   
+    <!-- end footer -->
+  </body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div media query</title>
+    <style>
+        *{
+            margin:0px;
+        }
+        .container{
+               height: 400px;
+               width: 100%;
+               background-image: url("img.jpg");
+        }
+
+        @media screen and (max-width:600px) {
+            .container{
+                   background-color: red;
+                   background-image: url("img.jpg");
+                   background-size: contain;
+            }
+
+            .body{
+                background-color: orange;
+            }
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+      
+    </div>
+</body>
+</html>

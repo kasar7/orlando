@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <style>
+        body{
+            background-color: red;
+
+        }
+        .mb , .ta{
+            display: none;
+        }
+
+        @media screen  and (max-width: 800px){
+             .wa , .mb {
+                  display: none;
+             }
+             .ta{
+                display: block;
+             }
+        }
+
+        @media screen and (min-width:600px){
+           body{
+               background-color: orange; 
+
+            }
+             .mb {
+                  display: block;
+             }
+             .ta,.wa{
+                display: none;
+             }
+
+        }
+
+        @media screen and (min-width:801px) and (max-width:1000px){
+           body{
+               background-color: blue; 
+            }
+            .ta , .mb {
+                  display: none;
+             }
+             .wa{
+                display: block;
+             }
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1 class="mb">Mobile App</h1>
+    <h1 class="ta">Tablet App</h1>
+    <h1 class="wa">WEb App</h1>
+</body>
+</html>

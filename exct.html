@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divassgmnt</title>
+    <style>
+        .container {
+            width: 40%;
+            height: 380px;
+            padding: 20px; /* added padding */
+            margin-top: 100px;
+            margin-left: 370px;
+            position: relative;
+            border: #FEFEFE solid;
+        }
+
+        .card1, .card2, .card3, .card4, .card5 {
+            position: relative;
+            transition: 1s;
+        }
+
+        .card1:hover, .card2:hover, .card3:hover, .card4:hover, .card5:hover {
+            transform: scale(1.1);
+        }
+
+        .text1, .text2, .text3, .text4, .text5 {
+            position: absolute;
+            color: #fff;
+            transition: 1s;
+        }
+
+        .card1:hover .text1 {
+            margin-top: -20px;
+        }
+
+        .card2:hover .text2 {
+            margin-top: -20px;
+        }
+
+        .card3:hover .text3 {
+            margin-top: -20px;
+        }
+
+        .card4:hover .text4 {
+            margin-top: -20px;
+        }
+
+        .card5:hover .text5 {
+            margin-top: -20px;
+        }
+
+        .card1 {
+            height: 120px;
+            width: 30%;
+            background-color: #AA96FF;
+        }
+
+        .card2 {
+            width: 23%;
+            height: 240px;
+            margin-left: 176px;
+            background-color: #9474EF;
+        }
+
+        .card3 {
+            height: 250px;
+            width: 48%;
+            margin-left: 306px;
+            background-color: #FEFEFE;
+        }
+
+        .card4 {
+            height: 260px;
+            width: 30%;
+            margin-top: 120px;
+            background-color: #8169FF;
+        }
+
+        .card5 {
+            height: 140px;
+            width: 70%;
+            margin-top: 240px;
+            margin-left: 176px;
+            background-color: #8C00FF;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card1">
+            <b class="text1">Hover Over Me</b>
+        </div>
+        <div class="card2">
+            <b class="text2">Now Here!</b>
+        </div>
+        <div class="card3">
+            <b class="text3">Or Over Me</b>
+        </div>
+        <div class="card4">
+            <b class="text4">Try Hovering here</b>
+        </div>
+        <div class="card5">
+            <b class="text5">Last But Not Least</b>
+        </div>
+    </div>
+</body>
+</html>

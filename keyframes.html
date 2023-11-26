@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* @keyframes start { */
+            /* from{transform:scale(0.4);background-color:red;} */
+            /* to{background-color:green;} */
+            /* to{background-color: scale(1); background-color:green;} */
+        /* } */
+
+        /* @keyframes percentage{
+            1%{background-color: aqua;}
+            40%{background-color:blue;}
+            80%{background-color:green;}
+            120%{background-color:aqua;}
+
+        } */
+
+        @keyframes border1{
+            1%{border-left:4px solid aqua;}
+            40%{border-bottom:4px solid blue;}
+            80%{border-right:4px solid green;}
+            120%{border-top:4px solid aqua;}
+
+        }
+        /* .header{
+            height: 400px;
+            background-color: red;
+            width: 100%;
+            animation: percentage;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+        } */
+
+        .border{
+            height: 100px;
+            width: 80px;
+            border: 4px solid rgb(0,0,0);
+            animation: border1;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+
+    </div>
+
+    <div class="border">
+
+    </div>
+</body>
+</html>

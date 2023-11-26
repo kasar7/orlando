@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .card{
+            height: 100px;
+            width: 100px;
+            background-color: orange;
+            border: 2px solid black;
+        }
+        
+        .layout1:hover{
+               transform: translate(340px,340px);
+               transition: 2s;
+        }
+
+   
+            .layout2:hover{
+                 transform: scale(0.7);
+                 transition: 2s;
+            }
+                   
+   
+        .layout3:hover{
+            transform:rotate(450deg);
+            transition: 2s;
+        }
+
+        .layout4{
+            transform:skew(45deg);
+            transition:4s ;
+        }
+    </style>
+</head>
+<body>
+    <div class="card layout1"></div>
+    <div class="card layout2"></div>
+    <div class="card layout3"></div>
+    <div class="card layout4"></div>
+
+</body>
+</html>
